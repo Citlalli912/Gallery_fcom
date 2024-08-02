@@ -1,0 +1,17 @@
+form 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input, button
+{
+  width: 15vw;
+  margin-bottom: 20px;
+}
+.menu .a {
+  display: flex;
+  font-size: 10px;
+  border-radius: 10px;
+}

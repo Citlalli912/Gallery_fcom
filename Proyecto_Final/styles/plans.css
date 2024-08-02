@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* a { text-decoration: none; }
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Quicksand", sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+nav
+{
+	width: 100vw;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.menu
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.menu > a
+{
+	margin: 0 10px;
+}
+.menu a 
+{
+	
+}
+h1
+{
+	font-size: 48px;
+}
+
+
+/*plans.css*/
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button
+{
+  width: 50vw;
+  height: 25vh;
+  cursor: pointer;
+}
+button[disabled]
+{
+  background-color: rgba(189, 209, 195, 0.5);  
+}
+button[disabled] > section *
+{
+  color: rgba(0,0,0,0.5);
+}

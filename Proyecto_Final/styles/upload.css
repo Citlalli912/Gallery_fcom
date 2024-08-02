@@ -1,0 +1,30 @@
+
+body
+{
+    padding: 10vh 10vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2
+{
+    color: crimson;
+}
+nav ul 
+{
+    display: flex;
+}
+nav ul li 
+{
+    margin: 5vh 5vw;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+input 
+{
+    margin-top: 5vh;
+}
